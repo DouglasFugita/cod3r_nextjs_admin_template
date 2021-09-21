@@ -1,3 +1,8 @@
-module.exports = {
-  reactStrictMode: true,
-}
+module.exports = [{
+    reactStrictMode: true,
+  },
+  {
+    key: 'Referrer-Policy',
+    value: 'no-referrer',
+  }
+]
